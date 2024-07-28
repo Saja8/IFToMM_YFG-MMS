@@ -1,36 +1,8 @@
-[![Screenshot of the Website](https://raw.githubusercontent.com/mikepierce/conference-website-template/master/screenshot.png)](https://mikepierce.github.io/conference-website-template/)
+[![Screenshot of the Website](assets/screenshotMAinPage.JPG)]
 
-An HTML/CSS website template perfect for a small academic or technology conference or seminar.
-The template is quick to deploy and straightforward to customize.
-You can [explore it live here](https://mikepierce.github.io/conference-website-template/),
-and see some folks' use of the template
-[here](https://math.ucr.edu/~mathconn/) 
-and [here](https://data-science-conference.github.io) 
-and [here](https://aquaticdatasciopensci.github.io) 
-and [here](https://comp-expe.github.io) 
-and [here](https://enba-phd-call.github.io)
-and [here](https://strl2022.github.io).
-I'd be happy to see the site you create from my template ☺
+An HTML/CSS website template for YFD Conferences.
 
-## Installation
 
-If you have access to a server for web hosting, 
-perhaps through your company/university or department, 
-then using this template is as easy as cloning this repository 
-directly into your public HTML directory.
-If not you can pretty easily host a website using this template with [GitHub Pages](https://pages.github.com/).
-See that link for more details, but the basic procedure is this:
-
- 1. Create a GitHub repository named `username.github.io`, 
- where *username* is your username on GitHub.
-
- 2. Click the *Use this template* button above, 
- being sure to give your copy of this repository a more apt name,
- like *awesome-conference*.
-
- 3. In your copy go to *Settings* and scroll down to *GitHub Pages*.
- Under *Source* choose the master branch of your forked copy.
- Then your copy of the website will be hosted at `username.github.io/awesome-conference`.
 
 ## Editing the Template
 
