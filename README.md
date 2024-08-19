@@ -1,6 +1,6 @@
-[![Screenshot of the Website](assets/screenshotMAinPage.JPG)](assets/screenshotMAinPage.JPG)
+[![Screenshot of the Website](assets/screenshotMAinPage1.JPG)](assets/screenshotMAinPage1.JPG)
 
-An HTML/CSS website template for YFD Conferences.
+An HTML/CSS website template for IFToMM YFG-MMS Conferences.
 
 
 
