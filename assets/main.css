@@ -13,209 +13,251 @@
  *   #b8860b; Dark Goldenrod, color for links
  */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
+ @import url('https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab');
 
-*{
-    border:0;
-    font:inherit;
-    font-size:1em;
-    margin:0;
-    padding:0;
-    vertical-align:baseline;
-}
-
-body{
-    background-color: #fafafa;
-    background-size: cover;
-    background-attachment: fixed;
-    color: #505050; 
-    text-align:left;
-    font-family:'Roboto',sans-serif;
-    font-size:1em;
-    line-height:1.5em;
-    margin: 60px auto;
-    width: 1000px;
-}
-
-a{color: #b8860b; text-decoration:none;}
-a.current{color: #52739e;}
-a.current:hover{color: #e82945;}
-a:hover{color: #b2132e;}
-a:active{color: #e82945;}
-h1,h2,h3,h4{clear:left; color: #813c54; margin:1.5em 0em 1em 0em; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
-h1{font-size:2.67em;}
-h2{font-size:2.00em;}
-h3{font-size:1.67em;}
-h4{font-size:1.33em;}
-p{list-style:none; margin:24px auto 24px auto; padding:0px; width:900px; text-align:left;}
-li a, p a {text-decoration:underline; text-decoration-color:#b8860b;}
-ul{list-style:none; margin:24px auto 24px auto; padding:0px; width:800px; text-align:left;}
-ul li{list-style:none; margin:0px auto 0px auto; padding:0px; text-align:left;}
-i,em{font-style:italic;}
-b,strong{font-weight:bold;}
-sup{
-    vertical-align: super;
-    font-size: 0.8em;
-    line-height: 0;
-}
-sub{
-    vertical-align: sub;
-    font-size: 0.8em;
-    line-height: 0;
-}
-table{
-    width: 1000px;
-    margin: 12px auto 24px auto;
-    float: center;
-    /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
-    /*border: 1px solid black;*/
-}
-th,td{
-    text-align: left;
-    /* UNCOMMENT THIS FOR DEBUGGING THE ALIGNMENT */
-    /*border: 1px solid black;*/
-}
-
-/* Website Banner */
-.banner {
-  position: relative;
-  font-family: 'Roboto Slab', serif;
-}
-
-/* Smaller image size */
-.banner img {
-  width: 100%; /* Adjust the width as needed */
-  height: auto; /* Maintains aspect ratio */
-  margin-bottom: 20px; /* Adds space between the image and the text */
-}
-
-.top-left {
-  font-size: 2.4em;
-  color: #505050;
-  background: #fafafa;
-  text-align: center;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  padding: 20px 0 0 0;
-  top: 40px;
-  margin-bottom: 60px; 
-  line-height: 1.1em;
-}
-
-/* Conference Title Logo */
-.title1{color: #b2132e; text-shadow: 1px 1px 3px #c0c0c0;} 
-.title2{color: #52739e; text-shadow: 1px 1px 3px #c0c0c0;}
-.year{color: #505050; font-size:0.9em; font-weight: lighter;}
-
-/* Navigation Links (Home, Registration, etc) */
-table.navigation{width:800px;}
-td.navigation{font-size:1.67em; white-space:nowrap; width:20%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-
-/* Sponsor Images */
-table.sponsors{width:800px;}
-td.sponsor{white-space:nowrap; width:33%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-td.sponsor img{width: 100%}
-
-/* The Table on the Program Page */
-td.room{padding: 4px 12px 4px 4px; width: 90%; vertical-align:bottom; font-size:1.67em; color: #52739e; height:32px;}
-td.date{white-space:nowrap; width:130px; text-align:right; vertical-align:top; padding:4px 16px 0px 0px;}
-td.title{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.5em; color: #813c54; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0; }
-td.title-special{padding: 4px 12px 4px 4px; width: 90%; vertical-align:top; font-size:1.67em; color: #52739e; height:32px; font-family:'Roboto Slab',serif; text-shadow: 1px 1px 2px #d0d0d0;}
-td.speaker{padding: 4px 12px 4px 4px; font-style: italic; font-size:1em; max-height:999999px}
-td.abstract{padding: 4px 12px 12px 4px; font-size:1em; max-height:999999px}
-td.abstract img{display: block; margin: 4px auto 8px auto}
-table.plenary{padding-top: 8px; background: #ffffff;}
-
-/* Registration and Directions iframes and Images */
-iframe.registration{display:block; margin:1em auto 2em auto; width:700px; height:1400px; border:none;}
-iframe.directions{display:block; margin:1em auto 2em auto; width:800px; height:400px; border:none;}
-img.center{display:block; width:67%; margin:1em auto 2em auto;}
-
-/* Flyer Images */
-table.flyers{width:800px;}
-td.flyer{white-space:nowrap; width:50%; text-align:center; vertical-align:middle; padding:0px 0px 0px 0px;}
-td.sponsor img{width: 100%}
-
-footer{font-size:0.875em; margin-top:12em; text-align:center;}
-
-/* My hacky way of making the site mobile-friendly */
-@media only screen and (max-width: 1100px) {
-    h2{font-size:3.00em;}
-    p{font-size:1.5em; line-height:1.5em;}
-    th,td,tr{font-size:1.5em; line-height:1.5em;}
-    td.date{font-size:1em; padding-top:0.5em;}
-    td.navigation{font-size:1.5em; padding:0px 20px 0px 20px;}
-    table.footer{font-size:0.33em;}
-}
-
-p {
-    text-align: justify;
-  }
-  
-
-/* Program Table Styling */
-table.program-table {
-    width: 100%; /* Full width for better readability */
-    border-collapse: collapse; /* Remove gaps between cells */
-    margin: 20px auto; /* Center the table */
-    font-size: 0.9em; /* Slightly smaller font for a structured look */
-}
-
-.program-table td {
-    padding: 10px; /* Padding inside cells */
-    border-bottom: 1px solid #dcdcdc; /* Light bottom border for separation */
-    font-family: 'Roboto', sans-serif;
-}
-
-.program-table tr:nth-child(even) {
-    background-color: #f9f9f9; /* Light background for even rows */
-}
-
-.program-table tr:hover {
-    background-color: #f1f1f1; /* Highlight row on hover */
-}
-
-.program-table .speaker {
-    color: #0d0b7a; /* Use Navy for speaker names */
-    /*font-style: italic;  Italicize speaker names */
-}
-
-.program-table .topic {
-    color: #923455; /* Use a unique color for topics */
-}
-
-/* Day-Specific Header and Table Header Styling */
-.day1-table th {
-    background-color: #52739e; /* Navy color for Day 1 */
-    color: #fafafa; /* Light text color */
-}
-
+ * {
+     border: 0;
+     font: inherit;
+     font-size: 1em;
+     margin: 0;
+     padding: 0;
+     vertical-align: baseline;
+ }
+ 
+ body {
+     background-color: #fafafa;
+     color: #505050;
+     text-align: left;
+     font-family: 'Roboto', sans-serif;
+     font-size: 1em; /* Set base font size for scalability */
+     line-height: 1.5em;
+     margin: 60px auto;
+     width: 1000px;
+ }
+ 
+ a {
+     color: #b8860b;
+     text-decoration: none;
+ }
+ a.current {
+     color: #52739e;
+ }
+ a.current:hover {
+     color: #e82945;
+ }
+ a:hover {
+     color: #b2132e;
+ }
+ a:active {
+     color: #e82945;
+ }
+ 
+ h1, h2, h3, h4 {
+     clear: left;
+     color: #813c54;
+     margin: 1.5em 0 1em;
+     font-family: 'Roboto Slab', serif;
+     text-shadow: 1px 1px 2px #d0d0d0;
+ }
+ h1 { font-size: 2.67em; }
+ h2 { font-size: 2.00em; }
+ h3 { font-size: 1.67em; }
+ h4 { font-size: 1.33em; }
+ 
+ p, ul {
+     margin: 24px auto;
+     padding: 0;
+     width: 90%; /* Make width flexible */
+     text-align: left;
+ }
+ p {
+     text-align: justify;
+ }
+ 
+ li a, p a {
+     text-decoration: underline;
+     text-decoration-color: #b8860b;
+ }
+ 
+ ul {
+     list-style: none;
+ }
+ 
+ ul li {
+     list-style: none;
+ }
+ 
+ sup {
+     vertical-align: super;
+     font-size: 0.8em;
+     line-height: 0;
+ }
+ sub {
+     vertical-align: sub;
+     font-size: 0.8em;
+     line-height: 0;
+ }
+ 
+ /* Website Banner */
+ .banner {
+     position: relative;
+     font-family: 'Roboto Slab', serif;
+ }
+ 
+ .banner img {
+     width: 100%;
+     height: auto;
+     margin-bottom: 20px;
+ }
+ 
+ .top-left {
+     font-size: 2.4em;
+     color: #505050;
+     background: #fafafa;
+     text-align: center;
+     width: 100%;
+     height: auto;
+     position: absolute;
+     padding: 20px 0 0 0;
+     top: 40px;
+     line-height: 1.1em;
+ }
+ 
+ /* Conference Title Logo */
+ .title1 {
+     color: #b2132e;
+     text-shadow: 1px 1px 3px #c0c0c0;
+ }
+ .title2 {
+     color: #52739e;
+     text-shadow: 1px 1px 3px #c0c0c0;
+ }
+ .year {
+     color: #505050;
+     font-size: 0.9em;
+     font-weight: lighter;
+ }
+ 
+ /* Navigation Links */
+ table.navigation {
+     width: 800px;
+ }
+ td.navigation {
+     font-size: 1.67em;
+     white-space: nowrap;
+     width: 20%;
+     text-align: center;
+ }
+ 
+ /* Sponsor Images */
+ table.sponsors {
+     width: 800px;
+ }
+ td.sponsor {
+     white-space: nowrap;
+     width: 33%;
+     text-align: center;
+ }
+ td.sponsor img {
+     width: 100%;
+ }
+ 
+ /* Program Table Styling */
+ table.program-table {
+     width: 100%;
+     border-collapse: collapse;
+     margin: 20px auto;
+     font-size: 0.9em;
+ }
+ 
+ .program-table th, .program-table td {
+     padding: 10px;
+     border-bottom: 1px solid #dcdcdc;
+ }
+ 
+ .program-table tr:nth-child(even) {
+     background-color: #f9f9f9;
+ }
+ 
+ .program-table tr:hover {
+     background-color: #f1f1f1;
+ }
+ 
+ .program-table .speaker {
+     color: #0d0b7a;
+ }
+ 
+ .program-table .topic {
+     color: #923455;
+ }
+ 
+ /* Day-Specific Header and Table Header Styling */
+ .day1-table th {
+     background-color: #52739e;
+     color: #fafafa;
+ }
  .day2-table th {
-    background-color: hsl(129, 69%, 22%); /* Reddish color for Day 2 */
-    color: #fafafa; /* Light text color */
-}
-
-.day3-table th {
-    background-color: #b2132e; /* Dark Purple for Day 3 */
-    color: #fafafa; /* Light text color */
-}
-
-/* General styling for table header cells */
-th {
-    padding: 12px;
-    font-size: 1em;
-    font-family: 'Roboto Slab', serif;
-    text-align: left;
-}
-
-
-.day1-header {
-    color: #52739e; /* Navy */
-}
-.day2-header {
-    color: hsl(129, 69%, 22%); /* Reddish */
-}
-.day3-header {
-    color: #b2132e; /* Dark Purple */
-}
+     background-color: hsl(129, 69%, 22%);
+     color: #fafafa;
+ }
+ .day3-table th {
+     background-color: #b2132e;
+     color: #fafafa;
+ }
+ 
+ th {
+     padding: 12px;
+     font-size: 1em;
+     font-family: 'Roboto Slab', serif;
+     text-align: left;
+ }
+ 
+ /* Responsive Adjustments */
+ @media only screen and (max-width: 768px) {
+     body {
+         font-size: 0.9em;
+     }
+     h1 { font-size: 1.8em; }
+     h2 { font-size: 1.5em; }
+     h3 { font-size: 1.3em; }
+     h4 { font-size: 1.1em; }
+ 
+     .program-table {
+         font-size: 0.85em;
+         width: 100%;
+     }
+     .program-table th, .program-table td {
+         padding: 8px;
+     }
+ }
+ 
+ /* Consistent Font Sizing for Table Elements */
+ .program-table td.speaker, .program-table td.topic {
+     font-size: 1em;
+     line-height: 1.2;
+     word-break: break-word;
+ }
+ 
+ /* Responsive Headings */
+ .day1-header, .day2-header, .day3-header {
+     font-size: 1.3em;
+     color: #52739e;
+ }
+ 
+ /* Further Adjustments for Smaller Screens */
+ @media only screen and (max-width: 480px) {
+     .program-table {
+         font-size: 0.75em;
+     }
+     .program-table th, .program-table td {
+         padding: 6px;
+     }
+ }
+ 
+ /* Footer */
+ footer {
+     font-size: 0.875em;
+     margin-top: 12em;
+     text-align: center;
+ }
+ 
