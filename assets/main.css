@@ -153,3 +153,42 @@ p {
     text-align: justify;
   }
   
+
+/* Program Table Styling */
+table.program-table {
+    width: 100%; /* Full width for better readability */
+    border-collapse: collapse; /* Remove gaps between cells */
+    margin: 20px auto; /* Center the table */
+    font-size: 0.9em; /* Slightly smaller font for a structured look */
+}
+
+.program-table th {
+    background-color: #52739e; /* Navy color for header background */
+    color: #fafafa; /* Light text color */
+    padding: 12px; /* Padding inside headers */
+    font-size: 1em; /* Increase header font size slightly */
+    font-family: 'Roboto Slab', serif;
+}
+
+.program-table td {
+    padding: 10px; /* Padding inside cells */
+    border-bottom: 1px solid #dcdcdc; /* Light bottom border for separation */
+    font-family: 'Roboto', sans-serif;
+}
+
+.program-table tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light background for even rows */
+}
+
+.program-table tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+
+.program-table .speaker {
+    color: #52739e; /* Use Navy for speaker names */
+    font-style: italic; /* Italicize speaker names */
+}
+
+.program-table .topic {
+    color: #813c54; /* Use a unique color for topics */
+}
