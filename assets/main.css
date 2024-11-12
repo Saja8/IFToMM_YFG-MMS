@@ -162,14 +162,6 @@ table.program-table {
     font-size: 0.9em; /* Slightly smaller font for a structured look */
 }
 
-.program-table th {
-    background-color: #52739e; /* Navy color for header background */
-    color: #fafafa; /* Light text color */
-    padding: 12px; /* Padding inside headers */
-    font-size: 1em; /* Increase header font size slightly */
-    font-family: 'Roboto Slab', serif;
-}
-
 .program-table td {
     padding: 10px; /* Padding inside cells */
     border-bottom: 1px solid #dcdcdc; /* Light bottom border for separation */
@@ -185,10 +177,45 @@ table.program-table {
 }
 
 .program-table .speaker {
-    color: #52739e; /* Use Navy for speaker names */
-    font-style: italic; /* Italicize speaker names */
+    color: #0d0b7a; /* Use Navy for speaker names */
+    /*font-style: italic;  Italicize speaker names */
 }
 
 .program-table .topic {
-    color: #813c54; /* Use a unique color for topics */
+    color: #923455; /* Use a unique color for topics */
+}
+
+/* Day-Specific Header and Table Header Styling */
+.day1-table th {
+    background-color: #52739e; /* Navy color for Day 1 */
+    color: #fafafa; /* Light text color */
+}
+
+ .day2-table th {
+    background-color: hsl(129, 69%, 22%); /* Reddish color for Day 2 */
+    color: #fafafa; /* Light text color */
+}
+
+.day3-table th {
+    background-color: #b2132e; /* Dark Purple for Day 3 */
+    color: #fafafa; /* Light text color */
+}
+
+/* General styling for table header cells */
+th {
+    padding: 12px;
+    font-size: 1em;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+}
+
+
+.day1-header {
+    color: #52739e; /* Navy */
+}
+.day2-header {
+    color: hsl(129, 69%, 22%); /* Reddish */
+}
+.day3-header {
+    color: #b2132e; /* Dark Purple */
 }
